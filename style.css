@@ -9,22 +9,49 @@ Version: 1.0
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
 /*styling for navigation below*/
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+  justify-content: space-between;
+}
+
 .site-logo {
   display: flex;
   flex-direction: row;
-  width: 100%;
   justify-content: space-between;
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 .nav-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  list-style-type: none;
 }
 
 .nav-item {
   font-family: "Anton", serif;
   font-weight: 400;
   font-style: normal;
-  color: blue;
+  padding: 1rem;
+  margin: 0px;
+}
+
+.nav-item > a {
+  text-decoration: none;
+  color: black;
+}
+
+.search-btn {
+  height: 50px;
+  width: 120px;
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  border: none;
+  background-color: white;
 }
