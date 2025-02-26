@@ -24,6 +24,7 @@ Version: 1.0
   font-family: "Anton", serif;
   font-weight: 400;
   font-size: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .nav-list {
@@ -31,6 +32,7 @@ Version: 1.0
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
+  padding: 0px;
 }
 
 .nav-item {
@@ -53,5 +55,64 @@ Version: 1.0
   font-weight: 400;
   font-style: normal;
   border: none;
+  font-size: 1rem;
   background-color: white;
+}
+
+.connect-container {
+  margin-right: 1.5rem;
+}
+
+.connect-button {
+  border: black solid 2px;
+  background-color: white;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+/*Banner styling goes below*/
+
+.hp-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-title-1 {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-size: 6rem;
+  margin: 0px;
+}
+
+.banner-title-2 {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-size: 6rem;
+  margin: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner-subtitle {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 300;
+  font-size: 1.25rem;
+  margin: 0px 0px 15px 0px;
+}
+
+.banner-cta-btn {
+  height: 50px;
+  width: 150px;
+  border: black solid 2px;
+  background-color: black;
+  color: white;
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
 }
