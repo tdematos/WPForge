@@ -32,8 +32,49 @@
         <div class="banner-btn-container">
             <button class="banner-cta-btn">CONNECT</button>
         </div>
-        <div class="Agency Slogan">
+        <div class="agency-slogan">
             <p>GLOBAL WP AGENCY </p>
         </div>
     </section>
- 
+    <section class="banner2">
+        <?php $bannerimg = '../../bannerimg1.jpg'; ?>
+        <div class="banner-2-img">
+            <img src="<?php echo $bannerimg; ?>" alt="image of a laptop and code on the screen">
+        </div>
+        <div class="banner-2-info">
+            <h3 class="banner-2-title">Discover what we have to offer</h3>
+            <p class="banner-2-subtitle">With WPForge you can count on us to design the website of your dreams.</p>
+            <button class="banner-2-btn">ABOUT US</button>
+        </div>
+    </section>
+ <section class="service-banner">
+    <h3 class="service-title">Services for Our Clients</h3>
+    <div class="service-box service-1">
+        <div class="service-title-1">
+            <p>01</p>
+            <h4>Web Development</h4>
+        </div>
+        <p>-</p>
+    </div>
+    <div class="service-box service-2">
+        <div class="service-title-2">
+            <p>02</p>
+            <h4>Website Redesign</h4>
+        </div>
+        <p>-</p>
+    </div>
+    <div class="service-box service-3">
+    <div class="service-title-3">
+            <p>03</p>
+            <h4>SEO Audit</h4>
+        </div>
+        <p>-</p>
+    </div>
+    <div class="service-box service-4">
+    <div class="service-title-4">
+            <p>04</p>
+            <h4>Custom Web Services</h4>
+        </div>
+        <p>-</p>
+    </div>
+ </section>
