@@ -196,4 +196,42 @@ Version: 1.0
   justify-content: space-between;
   align-items: center;
   width: 60%;
+  border-bottom: solid black 2px;
+}
+
+.first-box {
+  border-top: solid black 2px;
+}
+
+.service-title-main {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+.service-title-1,
+.service-title-2,
+.service-title-3,
+.service-title-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.service-title {
+  margin-left: 4rem;
+  font-size: 1.5rem;
+}
+
+.box-open {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
 }

@@ -48,33 +48,33 @@
         </div>
     </section>
  <section class="service-banner">
-    <h3 class="service-title">Services for Our Clients</h3>
-    <div class="service-box service-1">
+    <h3 class="service-title-main">Services for Our Clients</h3>
+    <div class="service-box first-box service-1">
         <div class="service-title-1">
             <p>01</p>
-            <h4>Web Development</h4>
+            <h4 class="service-title">Web Development</h4>
         </div>
-        <p>-</p>
+        <p class="box-open">-</p>
     </div>
     <div class="service-box service-2">
         <div class="service-title-2">
             <p>02</p>
-            <h4>Website Redesign</h4>
+            <h4 class="service-title">Website Redesign</h4>
         </div>
-        <p>-</p>
+        <p class="box-open">-</p>
     </div>
     <div class="service-box service-3">
     <div class="service-title-3">
             <p>03</p>
-            <h4>SEO Audit</h4>
+            <h4 class="service-title">SEO Audit</h4>
         </div>
-        <p>-</p>
+        <p class="box-open">-</p>
     </div>
     <div class="service-box service-4">
     <div class="service-title-4">
             <p>04</p>
-            <h4>Custom Web Services</h4>
+            <h4 class="service-title">Custom Web Services</h4>
         </div>
-        <p>-</p>
+        <p class="box-open">-</p>
     </div>
  </section>
