@@ -108,6 +108,14 @@
         </div>
     </div>
 </section>
-<section class="team-container"></section>
+<section class="team-container">
+    <h2 class="team-section-title">Our Team Behind The Code</h2>
+    <div class="team-img-container">
+        <img src="" alt="" class="team-member-img">
+        <img src="" alt="" class="team-member-img">
+        <img src="" alt="" class="team-member-img">
+        <img src="" alt="" class="team-member-img">
+    </div>
+</section>
 <section class="testimonial-container"></section>
 <section class="blog-container"></section>
