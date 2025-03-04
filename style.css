@@ -72,8 +72,14 @@ Version: 1.0
   cursor: pointer;
 }
 
-/*Banner styling goes below*/
+/*White space code goes here*/
+.page-white-space {
+  width: 100vw;
+  height: 10vh;
+  background-color: white;
+}
 
+/*Banner styling goes below*/
 .hp-banner {
   display: flex;
   flex-direction: column;
@@ -237,21 +243,26 @@ Version: 1.0
 }
 
 /*styling for project grid goes below*/
-.project-grid {
+.grid-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(246, 246, 246);
-  width: 100%;
+}
+
+.project-grid {
+  width: 90%;
   display: grid;
   justify-content: center;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  gap: 20px;
+  gap: 0.75rem;
 }
 
 .project-box > img {
   background-color: black;
-  height: 650px;
-  width: 500px;
+  height: 600px;
+  width: 550px;
 }
 
 .project-box > p {
@@ -264,4 +275,36 @@ Version: 1.0
   font-weight: 400;
   font-style: normal;
   margin: 20px 0px 20px 0px;
+}
+
+.project-box > button {
+  background-color: rgb(246, 246, 246);
+  border: none;
+  border-bottom: solid black 2px;
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+
+.pb1 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.pb2 {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-row-end: 3;
+}
+
+.pb3 {
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 2;
+}
+
+.pb4 {
+  grid-row-start: 4;
+  grid-row-end: 6;
 }
