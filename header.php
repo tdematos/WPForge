@@ -78,3 +78,34 @@
         <p class="box-open">-</p>
     </div>
  </section>
+<section class="grid-section">
+    <div class="project-grid">
+    <div class="project-box pb1">
+        <img src="" alt="">
+        <p>VIEW PROjECT</p>
+        <h4>Project 1</h4>
+        <button>VIEW PROjECT</button>
+    </div>
+    <div class="project-box pb2">
+    <img src="" alt="">
+        <p>Project 2</p>
+        <h4>Project 2</h4>
+        <button>VIEW PROjECT</button>
+    </div>
+    <div class="project-box pb3">
+    <img src="" alt="">
+        <p>Project 3</p>
+        <h4>Project 3</h4>
+        <button>VIEW PROjECT</button>
+    </div>
+    <div class="project-box pb4">
+    <img src="" alt="">
+        <p>Project 4</p>
+        <h4>Project 4</h4>
+        <button>VIEW PROjECT</button>
+    </div>
+    </div>
+</section>
+<section class="team-container"></section>
+<section class="testimonial-container"></section>
+<section class="blog-container"></section>
