@@ -117,5 +117,39 @@
         <img src="" alt="" class="team-member-img">
     </div>
 </section>
-<section class="testimonial-container"></section>
-<section class="blog-container"></section>
+<section class="page-white-space"></section>
+<section class="testimonial-container">
+    <div class="testimonial-box">
+        <h4 class="testimonial-title">Testimonials</h4>
+        <div class="quote-icon">"</div>
+        <p class="testimonial-quote">Here a testimonial is going to be put from a past client that I worked with.</p>
+        <h5 class="testimonial-author">John Smith</h5>
+        <p class="author-title">CEO of Walmart</p>
+        <div class="testimonial circle"></div>
+    </div>
+    <div class="testimonial-pic"></div>
+</section>
+<section class="page-white-space"></section>
+<section class="blog-container">
+    <h3 class="blog-section-title">Read Our Article and News</h3>
+    <div class="article-box">
+        <div class="article-card">
+            <img src="" alt="" class="blog-img">
+            <p class="article-date">March 5, 2025</p>
+            <h3 class="article-title">Building a website</h3>
+            <button class="article-cta-btn">READ MORE</button>
+        </div>
+        <div class="article-card">
+            <img src="" alt="" class="blog-img">
+            <p class="article-date">March 5, 2025</p>
+            <h3 class="article-title">Building a website</h3>
+            <button class="article-cta-btn">READ MORE</button>
+        </div>
+        <div class="article-card">
+            <img src="" alt="" class="blog-img">
+            <p class="article-date">March 5, 2025</p>
+            <h3 class="article-title">Building a website</h3>
+            <button class="article-cta-btn">READ MORE</button>
+        </div>
+    </div>
+</section>

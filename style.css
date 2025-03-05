@@ -342,3 +342,127 @@ Version: 1.0
   width: 275px;
   margin: 0px 15px 0px 15px;
 }
+
+/*Testimonial Styling goes below*/
+.testimonial-container {
+  background-color: #e3ff04;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.testimonial-pic {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+}
+
+.testimonial-box {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.testimonial-title {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  margin-left: 5rem;
+  margin: 10px 0px 10px 5rem;
+}
+
+.quote-icon {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8rem;
+  margin-left: 5rem;
+  height: 8rem;
+}
+
+.testimonial-quote {
+  font-size: 20px;
+  margin: 0px 0px 10px 5rem;
+  width: 80%;
+}
+
+.testimonial-author {
+  font-size: 25px;
+  margin: 0px 0px 10px 5rem;
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.author-title {
+  font-size: 20px;
+  margin: 0px 0px 10px 5rem;
+}
+
+/*blog section styling goes below*/
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.blog-section-title {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  width: 35%;
+  margin: 0px 0px 15px 0px;
+}
+
+.article-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 15px;
+}
+
+.blog-img {
+  width: 350px;
+  height: 350px;
+  background-color: black;
+}
+
+.article-date {
+  font-size: 20px;
+  margin: 15px 0px 15px 0px;
+}
+
+.article-title {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  margin: 0px 0px 15px 0px;
+}
+
+.article-cta-btn {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  border: none;
+  border-bottom: solid black 2px;
+  background-color: white;
+}
