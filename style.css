@@ -6,7 +6,12 @@ Description: Theme made specifically for WPForge.
 Version: 1.0
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Righteous&display=swap");
+
+:root {
+  --title-font: "Righteous", sans-serif;
+  --subtitle-font: "Caveat", cursive;
+}
 
 /*styling for navigation below*/
 .navigation-bar {
@@ -21,10 +26,10 @@ Version: 1.0
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
-  font-size: 1.5rem;
-  margin-left: 1.5rem;
+  font-size: 1.75rem;
+  margin-left: 1.75rem;
 }
 
 .nav-list {
@@ -36,7 +41,7 @@ Version: 1.0
 }
 
 .nav-item {
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   padding: 1rem;
@@ -51,12 +56,16 @@ Version: 1.0
 .search-btn {
   height: 50px;
   width: 120px;
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   border: none;
   font-size: 1rem;
   background-color: white;
+}
+
+.search-glass {
+  margin: 0px 10px 0px 0px;
 }
 
 .connect-container {
@@ -86,16 +95,19 @@ Version: 1.0
   justify-content: center;
   align-items: center;
 }
+.title-container {
+  margin: 4rem 0px 0px 0px;
+}
 
 .banner-title-1 {
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-size: 6rem;
   margin: 0px;
 }
 
 .banner-title-2 {
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-size: 6rem;
   margin: 0px;
@@ -104,11 +116,15 @@ Version: 1.0
 }
 
 .banner-subtitle {
+  font-family: var(--subtitle-font);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   display: flex;
   justify-content: flex-end;
   font-weight: 300;
-  font-size: 1.25rem;
-  margin: 0px 0px 15px 0px;
+  font-size: 1.5rem;
+  margin: 15px 0px 15px 0px;
 }
 
 .banner-cta-btn {
@@ -117,7 +133,7 @@ Version: 1.0
   border: black solid 2px;
   background-color: black;
   color: white;
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
@@ -128,12 +144,17 @@ Version: 1.0
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
   width: 100%;
   margin-left: 6rem;
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   font-size: 1.25rem;
+}
+
+.globe-icon {
+  margin: 0px 10px 0px 0px;
 }
 
 /*Code for banner 2 goes below*/
@@ -144,14 +165,20 @@ Version: 1.0
   height: 80vh;
 }
 
-.banner-2-img {
+.banner2-img-container {
   width: 50%;
   height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.banner-2-img > img {
-  width: 100%;
+.banner-2-img {
+  width: 75%;
   height: 100%;
+  position: relative;
+  bottom: 65px;
 }
 
 .banner-2-info {
@@ -163,7 +190,7 @@ Version: 1.0
 }
 
 .banner-2-title {
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   font-size: 4rem;
@@ -172,19 +199,23 @@ Version: 1.0
 }
 
 .banner-2-subtitle {
+  font-family: var(--subtitle-font);
   font-size: 1.25rem;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .banner-2-btn {
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   font-size: 1.3rem;
   background-color: #e3ff04;
-  width: 90px;
-  height: 50px;
+  height: 40px;
   border: none;
   border-bottom: black solid 2px;
+  width: 118px;
 }
 
 /*Service banner code goes below */
@@ -210,7 +241,7 @@ Version: 1.0
 }
 
 .service-title-main {
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   font-size: 3rem;
@@ -225,7 +256,7 @@ Version: 1.0
   justify-content: flex-start;
   align-items: center;
   width: 50%;
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
 }
@@ -236,7 +267,7 @@ Version: 1.0
 }
 
 .box-open {
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
@@ -271,7 +302,7 @@ Version: 1.0
 
 .project-box > h4 {
   font-size: 2rem;
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   margin: 20px 0px 20px 0px;
@@ -281,10 +312,18 @@ Version: 1.0
   background-color: rgb(246, 246, 246);
   border: none;
   border-bottom: solid black 2px;
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   font-size: 1.25rem;
+}
+
+.project-box > p {
+  font-family: var(--subtitle-font);
+  font-size: 1.5rem;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .pb1 {
@@ -321,7 +360,7 @@ Version: 1.0
 }
 
 .team-section-title {
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   font-size: 4rem;
@@ -369,7 +408,7 @@ Version: 1.0
 }
 
 .testimonial-title {
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   font-size: 4rem;
@@ -378,7 +417,7 @@ Version: 1.0
 }
 
 .quote-icon {
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   font-size: 8rem;
@@ -390,12 +429,13 @@ Version: 1.0
   font-size: 20px;
   margin: 0px 0px 10px 5rem;
   width: 80%;
+  font-family: var(--subtitle-font);
 }
 
 .testimonial-author {
   font-size: 25px;
   margin: 0px 0px 10px 5rem;
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
 }
@@ -403,6 +443,7 @@ Version: 1.0
 .author-title {
   font-size: 20px;
   margin: 0px 0px 10px 5rem;
+  font-family: var(--subtitle-font);
 }
 
 /*blog section styling goes below*/
@@ -415,11 +456,11 @@ Version: 1.0
 }
 
 .blog-section-title {
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   font-size: 4rem;
-  width: 35%;
+  width: 45%;
   margin: 0px 0px 15px 0px;
 }
 
@@ -447,10 +488,11 @@ Version: 1.0
 .article-date {
   font-size: 20px;
   margin: 15px 0px 15px 0px;
+  font-family: var(--subtitle-font);
 }
 
 .article-title {
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   font-size: 1.25rem;
@@ -458,7 +500,7 @@ Version: 1.0
 }
 
 .article-cta-btn {
-  font-family: "Anton", serif;
+  font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;

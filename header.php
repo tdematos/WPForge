@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
   <?php wp_head(); ?>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <nav class="navigation-bar">
@@ -17,13 +16,12 @@
         </ul>
       </div>
       <div class="search">
-        <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i>SEARCH</button>
+        <button class="search-btn"><i class="fa-solid fa-magnifying-glass search-glass"></i>SEARCH</button>
       </div>
       <div class="connect-container">
         <button class="connect-button">C</button>
       </div>
     </nav>
-    <section class="page-white-space"></section>
     <section class="hp-banner">
         <div class="title-container">
             <h2 class="banner-title-1">Wordpress Development</h2>
@@ -34,13 +32,14 @@
             <button class="banner-cta-btn">CONNECT</button>
         </div>
         <div class="agency-slogan">
+        <i class="fa-solid fa-globe globe-icon"></i>
             <p>GLOBAL WP AGENCY </p>
         </div>
     </section>
+    <section class="page-white-space"></section>
     <section class="banner2">
-        <?php $bannerimg = '../../bannerimg1.jpg'; ?>
-        <div class="banner-2-img">
-            <img src="<?php echo $bannerimg; ?>" alt="image of a laptop and code on the screen">
+        <div class="banner2-img-container">
+             <img class="banner-2-img" src="<?php echo get_template_directory_uri(); ?>/assets/bannerimg.jpg" alt="image of a laptop and code on the screen">
         </div>
         <div class="banner-2-info">
             <h3 class="banner-2-title">Discover what we have to offer</h3>
