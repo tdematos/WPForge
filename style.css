@@ -172,13 +172,14 @@ Version: 1.0
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  margin-left: 50px;
 }
 
 .banner-2-img {
-  width: 75%;
-  height: 100%;
+  width: 63%;
+  /* height: 100%; */
   position: relative;
-  bottom: 65px;
+  bottom: 60px;
 }
 
 .banner-2-info {
@@ -377,9 +378,11 @@ Version: 1.0
 
 .team-member-img {
   background-color: black;
-  height: 375px;
-  width: 275px;
+  /* height: 375px; */
+  width: 290px;
   margin: 0px 15px 0px 15px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 /*Testimonial Styling goes below*/

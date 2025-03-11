@@ -110,7 +110,7 @@
 <section class="team-container">
     <h2 class="team-section-title">Our Team Behind The Code</h2>
     <div class="team-img-container">
-        <img src="" alt="" class="team-member-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/thiagohs.jpg" class="team-member-img" alt="Headshot of founder.">
         <img src="" alt="" class="team-member-img">
         <img src="" alt="" class="team-member-img">
         <img src="" alt="" class="team-member-img">
