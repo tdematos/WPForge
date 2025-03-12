@@ -511,3 +511,136 @@ Version: 1.0
   border-bottom: solid black 2px;
   background-color: white;
 }
+
+/*Footer styling goes below*/
+
+.footer-section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(244, 244, 244);
+}
+
+.footer-section-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-box-1 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-title {
+  font-family: var(--title-font);
+  font-size: 5rem;
+  width: 80%;
+  line-height: 80px;
+}
+
+.footer-box-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-description {
+  font-family: var(--subtitle-font);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.footer-cta-btn {
+  font-family: var(--title-font);
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  width: 200px;
+  height: 60px;
+  border: none;
+}
+
+.footer-section-2 {
+  border-top: black solid 2px;
+  border-bottom: black solid 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+}
+
+.banner-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+}
+
+.footer-nav-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  padding: none;
+}
+
+.footer-nav-items > a {
+  font-family: var(--title-font);
+  font-size: 1rem;
+  margin: 0px 15px 0px 15px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.banner-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+
+.footer-nav-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footer-section-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+}
+
+.footer-icon-box > i {
+  margin: 0px 15px 0px 0px;
+  font-size: 1.25rem;
+}
+
+.copyright-footer {
+  font-family: var(--subtitle-font);
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
