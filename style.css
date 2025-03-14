@@ -73,12 +73,20 @@ Version: 1.0
 }
 
 .connect-button {
-  border: black solid 2px;
+  border: none;
   background-color: white;
   border-radius: 25px;
+  font-size: 1.5rem;
   width: 50px;
   height: 50px;
   cursor: pointer;
+}
+
+/*Navigation responsive styling goes below*/
+@media screen and (max-width: 700px) {
+  .turn-off-nav {
+    display: none;
+  }
 }
 
 /*White space code goes here*/

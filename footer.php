@@ -27,7 +27,7 @@
     </div>
     <div class="footer-section-3">
         <div class="footer-icon-box">
-        <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-x-twitter"></i>
         </div>
@@ -37,5 +37,6 @@
     </div>
 </section>
     
+<?php wp_footer(); ?>
 </body>
 </html>

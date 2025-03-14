@@ -19,7 +19,7 @@
         <button class="search-btn"><i class="fa-solid fa-magnifying-glass search-glass"></i>SEARCH</button>
       </div>
       <div class="connect-container">
-        <button class="connect-button">C</button>
+        <button class="connect-button"><i class="fa-solid fa-bars"></i></button>
       </div>
     </nav>
     <section class="hp-banner">
@@ -152,3 +152,4 @@
         </div>
     </div>
 </section>
+<section class="page-white-space"></section>
