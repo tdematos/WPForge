@@ -22,6 +22,29 @@
         <button class="connect-button"><i class="fa-solid fa-bars"></i></button>
       </div>
     </nav>
+    <dialog class="hamburger-menu" open>
+        <div class="hb-title-box">
+            <h2 class="hb-title">WPFORGE</h2>
+            <button class="hb-close-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+            <div class="hb-nav-list">
+                <div class="dialog-nav-item"><p class="nav-item"><a href="#">HOME</a></p><i class="fa-solid fa-angle-down"></i></div>
+                <div class="dialog-nav-item"><p class="nav-item"><a href="#">BLOG</a></p><i class="fa-solid fa-angle-down"></i></div>
+                <div class="dialog-nav-item"><p class="nav-item"><a href="#">PRICING</a></p><i class="fa-solid fa-angle-down"></i></div>
+                <div class="dialog-nav-item"><p class="nav-item"><a href="#">CONTACT</a></p><i class="fa-solid fa-angle-down"></i></div>
+            </div>
+            <hr class="dialog-hr">
+        <div class="contact-info-container">
+            <p class="hb-contact-email">thiago.dematos.1@gmail.com</p>
+        </div>
+        <div class="nav-social-icons">
+            <div class="hb-icon-box">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+             </div>
+        </div>
+</dialog>
     <section class="hp-banner">
         <div class="title-container">
             <h2 class="banner-title-1">Wordpress Development</h2>
