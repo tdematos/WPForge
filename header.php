@@ -22,7 +22,7 @@
         <button class="connect-button"><i class="fa-solid fa-bars"></i></button>
       </div>
     </nav>
-    <dialog class="hamburger-menu" open>
+    <dialog class="hamburger-menu">
         <div class="hb-title-box">
             <h2 class="hb-title">WPFORGE</h2>
             <button class="hb-close-btn"><i class="fa-solid fa-xmark"></i></button>

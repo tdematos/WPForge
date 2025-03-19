@@ -15,3 +15,20 @@ const adjustNavBar = () => {
 };
 
 adjustNavBar();
+
+//opening hamburger menu
+const toggleHBMenu = () => {
+  const hbMenuButton = document.querySelector(".connect-button");
+  const hamburgerMenuModal = document.querySelector(".hamburger-menu");
+  const hbCloseButton = document.querySelector(".hb-close-btn");
+
+  hbMenuButton.addEventListener("click", () => {
+    hamburgerMenuModal.showModal();
+  });
+
+  hbCloseButton.addEventListener("click", () => {
+    hamburgerMenuModal.close();
+  });
+};
+
+toggleHBMenu();
