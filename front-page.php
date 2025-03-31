@@ -16,7 +16,6 @@
         <button class="search-btn"><i class="fa-solid fa-magnifying-glass search-glass"></i>SEARCH</button>
       </div>
       <div class="connect-container">
-        <!-- <button class="connect-button"><i class="fa-solid fa-bars"></i></button> -->
       </div>
     </nav>
     <dialog class="hamburger-menu">
@@ -41,6 +40,15 @@
                 <i class="fa-brands fa-x-twitter"></i>
              </div>
         </div>
+</dialog>
+<dialog class="search-modal">
+    <div class="search-modal-container-1">
+        <button class="search-modal-close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="search-modal-container-2">
+        <input class="search-input" type="text" class="search-field" placeholder="Search...">
+        <i id="search-modal-icon" class="fa-solid fa-magnifying-glass"></i>
+    </div>
 </dialog>
     <section class="hp-banner">
         <div class="title-container">

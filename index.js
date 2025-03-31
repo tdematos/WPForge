@@ -3,7 +3,7 @@ const adjustNavBar = () => {
   const searchBar = document.querySelector(".search");
   const hamburgerContainer = document.querySelector(".connect-container");
 
-  let button = null;
+  let button = document.querySelector(".connect-button");
 
   const handleResize = () => {
     if (window.innerWidth <= 700) {
@@ -20,8 +20,7 @@ const adjustNavBar = () => {
         button.appendChild(icon);
         hamburgerContainer.appendChild(button);
 
-        // After button is created, call toggleHBMenu to attach event listeners
-        toggleHBMenu();
+        toggleHBMenu(button);
       }
     } else {
       navigationBar.classList.remove("turn-off-nav");
@@ -35,26 +34,50 @@ const adjustNavBar = () => {
   };
 
   window.addEventListener("resize", handleResize);
-  handleResize(); // Run it once to apply styles on load
+  handleResize();
 };
 
 adjustNavBar();
 
-// Toggle Hamburger Menu
-const toggleHBMenu = () => {
-  const hbMenuButton = document.querySelector(".connect-button");
+// Toggle Hamburger Menu (Attach event listener only once)
+const toggleHBMenu = (button) => {
   const hamburgerMenuModal = document.querySelector(".hamburger-menu");
   const hbCloseButton = document.querySelector(".hb-close-btn");
 
-  if (hbMenuButton) {
-    hbMenuButton.addEventListener("click", () => {
+  if (button && !button.dataset.listenerAdded) {
+    button.addEventListener("click", () => {
       hamburgerMenuModal.showModal();
     });
+
+    button.dataset.listenerAdded = "true";
   }
 
-  if (hbCloseButton) {
+  if (hbCloseButton && !hbCloseButton.dataset.listenerAdded) {
     hbCloseButton.addEventListener("click", () => {
       hamburgerMenuModal.close();
     });
+
+    hbCloseButton.dataset.listenerAdded = "true";
   }
 };
+
+// Toggle Hamburger Menu
+const toggleSearchMenu = () => {
+  const searchButton = document.querySelector(".search-btn");
+  const searchMenuModal = document.querySelector(".search-modal");
+  const searchModalClose = document.querySelector(".search-modal-close");
+
+  if (searchButton) {
+    searchButton.addEventListener("click", () => {
+      searchMenuModal.showModal();
+    });
+  }
+
+  if (searchButton) {
+    searchModalClose.addEventListener("click", () => {
+      searchMenuModal.close();
+    });
+  }
+};
+
+toggleSearchMenu();
