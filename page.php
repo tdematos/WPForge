@@ -1,5 +1,6 @@
-<?php get_header();
+<?php get_header(); ?>
 
+<p>This is where the blog will go!</p>
 
-get_footer();
+<?php get_footer();
 ?>

@@ -22,7 +22,7 @@ Version: 1.0
   justify-content: space-between;
 }
 
-.site-logo {
+.site-logo > a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -30,6 +30,8 @@ Version: 1.0
   font-weight: 400;
   font-size: 1.75rem;
   margin-left: 1.75rem;
+  text-decoration: none;
+  color: black;
 }
 
 .nav-list {
@@ -55,13 +57,20 @@ Version: 1.0
 
 .search-btn {
   height: 50px;
-  width: 120px;
+  width: 180px;
   font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
   border: none;
   font-size: 1rem;
   background-color: white;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.search-btn:hover {
+  font-size: 1.25rem;
+  background-color: #e3ff04;
 }
 
 .search-glass {
@@ -92,7 +101,7 @@ Version: 1.0
 /*Dialog styling goes here*/
 
 dialog {
-  position: absolute;
+  position: fix;
   z-index: 1;
   right: 100%;
   height: 100vh;
