@@ -13,6 +13,11 @@ Version: 1.0
   --subtitle-font: "Caveat", cursive;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 /*styling for navigation below*/
 .navigation-bar {
   display: flex;
@@ -20,6 +25,9 @@ Version: 1.0
   align-items: center;
   margin: 0px;
   justify-content: space-between;
+  opacity: 90%;
+  background-color: white;
+  z-index: 2;
 }
 
 .site-logo > a {
@@ -188,7 +196,6 @@ Version: 1.0
   position: fixed;
   background-color: black;
   opacity: 90%;
-  width: 100vw;
   height: 100vh;
   z-index: 99;
 }
@@ -251,7 +258,6 @@ Version: 1.0
 }
 /*White space styling goes here*/
 .page-white-space {
-  width: 100vw;
   height: 10vh;
   background-color: white;
 }
@@ -262,7 +268,30 @@ Version: 1.0
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 700px;
+  min-width: 100%;
 }
+
+.banner-overlay {
+  position: absolute;
+  top: 116px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  width: 100%;
+  height: 700px;
+  background-color: white;
+  opacity: 90%;
+}
+
+.banner-video {
+  min-width: 100%;
+  min-height: 120%;
+  z-index: -99;
+}
+
 .title-container {
   margin: 4rem 0px 0px 0px;
 }
@@ -683,7 +712,6 @@ Version: 1.0
 /*Footer styling goes below*/
 
 .footer-section {
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
