@@ -330,7 +330,6 @@ body {
 .banner-cta-btn {
   height: 50px;
   width: 150px;
-  border: black solid 2px;
   background-color: black;
   color: white;
   font-family: var(--title-font);
@@ -338,6 +337,14 @@ body {
   font-style: normal;
   font-size: 1rem;
   margin: 15px 0px 0px 0px;
+  transition: 2s;
+  cursor: pointer;
+  border: none;
+}
+
+.banner-cta-btn:hover {
+  background-color: #e3ff04;
+  color: black;
 }
 
 .agency-slogan {
