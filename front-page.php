@@ -68,10 +68,9 @@
             </div>
         </div>
     </section>
-    <!-- <section class="page-white-space"></section> -->
     <section class="banner2">
         <div class="banner2-img-container">
-             <img class="banner-2-img" src="<?php echo get_template_directory_uri(); ?>/assets/bannerimg.jpg" alt="image of a laptop and code on the screen">
+             <img class="banner-2-img" src="<?php echo get_template_directory_uri(); ?>/assets/smiley-pc.png" alt="image of a laptop and code on the screen">
         </div>
         <div class="banner-2-info">
             <h3 class="banner-2-title">Discover what we have to offer</h3>
