@@ -1,23 +1,7 @@
 <?php get_header(); ?>
 
   <body>
-    <nav class="navigation-bar">
-      <div class="site-logo"><a href="<?php echo esc_url(home_url('/')); ?>">WPFORGE</a></div>
-      <div class="navigation">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#">HOME</a></li>
-          <li class="nav-item"><a href="#">PORTFOLIO</a></li>
-          <li class="nav-item"><a href="#">BLOG</a></li>
-          <li class="nav-item"><a href="#">PRICING</a></li>
-          <li class="nav-item"><a href="#">CONTACT</a></li>
-        </ul>
-      </div>
-      <div class="search">
-        <button class="search-btn"><i class="fa-solid fa-magnifying-glass search-glass"></i>SEARCH</button>
-      </div>
-      <div class="connect-container">
-      </div>
-    </nav>
+   
     <dialog class="hamburger-menu">
         <div class="hb-title-box">
             <h2 class="hb-title">WPFORGE</h2>
@@ -53,21 +37,38 @@
     <section class="hp-banner">
         <video autoplay muted loop src="<?php echo get_template_directory_uri(); ?>/assets/bannerVideo.webm" class="banner-video"></video>
          <div class="banner-overlay">
-         <div class="title-container">
-                <h2 class="banner-title-1">Wordpress Development</h2>
-                <h2 class="banner-title-2">Agency</h2>
-                <h3 class="banner-subtitle">Take your website to new heights by hiring WPForge for your next project.</h3>
-          </div>
-         <div class="banner-btn-container">
-                <button class="banner-cta-btn">CONNECT</button>
-         </div>
-         <div class="agency-slogan">
-         <i class="fa-solid fa-globe globe-icon"></i>
+         <nav class="navigation-bar">
+      <div class="site-logo"><a href="<?php echo esc_url(home_url('/')); ?>">WPFORGE</a></div>
+      <div class="navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#">HOME</a></li>
+          <li class="nav-item"><a href="#">PORTFOLIO</a></li>
+          <li class="nav-item"><a href="#">BLOG</a></li>
+          <li class="nav-item"><a href="#">PRICING</a></li>
+          <li class="nav-item"><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <button class="search-btn"><i class="fa-solid fa-magnifying-glass search-glass"></i>SEARCH</button>
+      </div>
+      <div class="connect-container">
+      </div>
+    </nav>
+            <div class="title-container">
+                    <h2 class="banner-title-1">Wordpress Development</h2>
+                    <h2 class="banner-title-2">Agency</h2>
+                 <h3 class="banner-subtitle">Take your website to new heights by hiring WPForge for your next project.</h3>
+             </div>
+             <div class="banner-btn-container">
+                    <button class="banner-cta-btn">CONNECT</button>
+             </div>
+             <div class="agency-slogan">
+                 <i class="fa-solid fa-globe globe-icon"></i>
                 <p>GLOBAL WP AGENCY </p>
-         </div>
+            </div>
         </div>
     </section>
-    <section class="page-white-space"></section>
+    <!-- <section class="page-white-space"></section> -->
     <section class="banner2">
         <div class="banner2-img-container">
              <img class="banner-2-img" src="<?php echo get_template_directory_uri(); ?>/assets/bannerimg.jpg" alt="image of a laptop and code on the screen">
