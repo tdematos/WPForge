@@ -474,6 +474,13 @@ body {
   font-style: normal;
 }
 
+.service-title-1 > p,
+.service-title-2 > p,
+.service-title-3 > p,
+.service-title-4 > p {
+  font-family: var(--title-font);
+}
+
 .service-title {
   margin-left: 4rem;
   font-size: 1.5rem;
