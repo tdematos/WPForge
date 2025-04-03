@@ -173,3 +173,42 @@ const toggleServiceSection4 = () => {
 };
 
 toggleServiceSection4();
+
+//Testimonial section logic goes below
+const testimonialArray = [
+  {
+    client: "Bizlar",
+    location: "Canada 🇨🇦",
+    blurb:
+      "What a fantastic experience working with Thiago, very professional, good communication and exceptional quality of content, thank you - highly recommended",
+  },
+  {
+    client: "Derek Rhodes",
+    location: "USA 🇺🇸",
+    blurb:
+      "Great experience! Delivered early, gladly worked on extensive revisions, and sent a final product ready for publishing! I will use again.",
+  },
+  {
+    client: "Sonme Zocak",
+    location: "Turkey 🇹🇷",
+    blurb:
+      "I'm totally amazed! I asked for a few changes and got them as I wanted. I would definitely recommend!",
+  },
+];
+let i = 0;
+
+const toggleTestimonial = () => {
+  const testimonialBlurb = document.querySelector(".testimonial-quote");
+  const testimonialAuthor = document.querySelector(".testimonial-author");
+  const testimonialLocation = document.querySelector(".author-location");
+
+  testimonialBlurb.textContent = testimonialArray[i].blurb;
+  testimonialAuthor.textContent = testimonialArray[i].client;
+  testimonialLocation.textContent = testimonialArray[i].location;
+
+  i = (i + 1) % testimonialArray.length;
+};
+
+setInterval(toggleTestimonial, 5000);
+
+toggleTestimonial();

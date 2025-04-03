@@ -155,9 +155,9 @@
     <div class="testimonial-box">
         <h4 class="testimonial-title">Testimonials</h4>
         <div class="quote-icon">"</div>
-        <p class="testimonial-quote">Here a testimonial is going to be put from a past client that I worked with.</p>
-        <h5 class="testimonial-author">John Smith</h5>
-        <p class="author-title">CEO of Walmart</p>
+        <p class="testimonial-quote"></p>
+        <h5 class="testimonial-author"></h5>
+        <p class="author-location"></p>
         <div class="testimonial circle"></div>
     </div>
     <div class="testimonial-pic">
