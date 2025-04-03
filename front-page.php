@@ -84,29 +84,33 @@
         <div class="service-title-1">
             <p>01</p>
             <h4 class="service-title">Web Development</h4>
+            <div class="webDev-description"></div>
         </div>
-        <p class="box-open">-</p>
+        <p class="box-open box-open-1">+</p>
     </div>
     <div class="service-box service-2">
         <div class="service-title-2">
             <p>02</p>
             <h4 class="service-title">Website Redesign</h4>
+            <div class="webRD-description"></div>
         </div>
-        <p class="box-open">-</p>
+        <p class="box-open box-open-2">+</p>
     </div>
     <div class="service-box service-3">
     <div class="service-title-3">
             <p>03</p>
-            <h4 class="service-title">SEO Audit</h4>
+            <h4 class="service-title">Improve SEO</h4>
+            <div class="impSEO-description"></div>
         </div>
-        <p class="box-open">-</p>
+        <p class="box-open box-open-3">+</p>
     </div>
     <div class="service-box service-4">
     <div class="service-title-4">
             <p>04</p>
-            <h4 class="service-title">Custom Web Services</h4>
+            <h4 class="service-title">Website Maintenance</h4>
+            <div class="webM-description"></div>
         </div>
-        <p class="box-open">-</p>
+        <p class="box-open box-open-4">+</p>
     </div>
  </section>
  <section class="page-white-space"></section>

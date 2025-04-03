@@ -436,6 +436,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  position: relative;
+  bottom: 50px;
 }
 
 .service-box {
@@ -455,7 +457,7 @@ body {
   font-family: var(--title-font);
   font-weight: 400;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 0px;
 }
 
@@ -467,8 +469,7 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  width: 50%;
-  font-family: var(--title-font);
+  width: 100%;
   font-weight: 400;
   font-style: normal;
 }
@@ -476,6 +477,7 @@ body {
 .service-title {
   margin-left: 4rem;
   font-size: 1.5rem;
+  font-family: var(--title-font);
 }
 
 .box-open {
@@ -483,6 +485,26 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.box-open:hover {
+  color: lightgray;
+}
+
+.webRD-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.description-blurb {
+  font-family: var(--subtitle-font);
+  padding: 45px;
+  font-size: 1.25rem;
 }
 
 /*styling for project grid goes below*/
