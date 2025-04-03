@@ -625,13 +625,16 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 60vh;
 }
 
 .testimonial-pic {
   width: 50%;
   height: 100%;
-  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .testimonial-box {

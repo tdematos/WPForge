@@ -151,7 +151,6 @@
         <img src="" alt="" class="team-member-img">
     </div>
 </section>
-<section class="page-white-space"></section>
 <section class="testimonial-container">
     <div class="testimonial-box">
         <h4 class="testimonial-title">Testimonials</h4>
@@ -161,7 +160,9 @@
         <p class="author-title">CEO of Walmart</p>
         <div class="testimonial circle"></div>
     </div>
-    <div class="testimonial-pic"></div>
+    <div class="testimonial-pic">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/talking-emoji.png" alt="photo of a talkig smiley emoji">
+    </div>
 </section>
 <section class="page-white-space"></section>
 <section class="blog-container">
