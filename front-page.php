@@ -4,7 +4,7 @@
    
     <dialog class="hamburger-menu">
         <div class="hb-title-box">
-            <h2 class="hb-title">WPFORGE</h2>
+            <h2 class="hb-title">DOTCOMFORGE</h2>
             <button class="hb-close-btn"><i class="fa-solid fa-xmark"></i></button>
         </div>
             <div class="hb-nav-list">
@@ -38,7 +38,7 @@
         <video autoplay muted loop src="<?php echo get_template_directory_uri(); ?>/assets/bannerVideo.webm" class="banner-video"></video>
          <div class="banner-overlay">
          <nav class="navigation-bar">
-      <div class="site-logo"><a href="<?php echo esc_url(home_url('/')); ?>">WPFORGE</a></div>
+      <div class="site-logo"><a href="<?php echo esc_url(home_url('/')); ?>">.comFORGE</a></div>
       <div class="navigation">
         <ul class="nav-list">
           <li class="nav-item"><a href="#">HOME</a></li>
@@ -57,7 +57,7 @@
             <div class="title-container">
                     <h2 class="banner-title-1">Wordpress Development</h2>
                     <h2 class="banner-title-2">Agency</h2>
-                 <h3 class="banner-subtitle">Take your website to new heights by hiring WPForge for your next project.</h3>
+                 <h3 class="banner-subtitle">Take your website to new heights by hiring .comForge for your next project.</h3>
              </div>
              <div class="banner-btn-container">
                     <button class="banner-cta-btn">CONNECT</button>
@@ -74,7 +74,7 @@
         </div>
         <div class="banner-2-info">
             <h3 class="banner-2-title">Discover what we have to offer</h3>
-            <p class="banner-2-subtitle">With WPForge you can count on us to design the website of your dreams.</p>
+            <p class="banner-2-subtitle">With .comForge you can count on us to design the website of your dreams.</p>
             <button class="banner-2-btn">ABOUT US</button>
         </div>
     </section>
@@ -117,29 +117,46 @@
 <section class="grid-section">
     <div class="project-grid">
         <div class="project-box pb1">
-             <img src="" alt="">
-             <p>VIEW PROjECT</p>
-             <h4>Project 1</h4>
-             <button>VIEW PROjECT</button>
+            <div class="pf-image-1">
+                <div class="pf-img-overlay">
+                    <h3 class="pf-title-1">.comFORGE</h3>
+                </div>
+            </div>
+            <p>Agency Website | Wordpress </p>
+            <h4>.comFORGE</h4>
+            <button>VIEW PROjECT <i class="fa-solid fa-arrow-up-right-from-square pj-icon"></i></button>
         </div>
         <div class="project-box pb2">
-            <img src="" alt="">
-            <p>Project 2</p>
-            <h4>Project 2</h4>
-            <button>VIEW PROjECT</button>
+        <div class="pf-image-2">
+                <div class="pf-img-overlay">
+                    <h3 class="pf-title-1">devbythiago.</h3>
+                </div>
+            </div>
+            <p>Personal Website | Porfolio | Branding</p>
+            <h4>devbythiago</h4>
+            <button>VIEW PROjECT <i class="fa-solid fa-arrow-up-right-from-square pj-icon"></i></button>
         </div>
         <div class="project-box pb3">
-            <img src="" alt="">
+        <div class="pf-image-3">
+                <div class="pf-img-overlay">
+                    <h3 class="pf-title-1">.comFORGE</h3>
+                </div>
+            </div>
             <p>Project 3</p>
             <h4>Project 3</h4>
-            <button>VIEW PROjECT</button>
+            <button>VIEW PROjECT <i class="fa-solid fa-arrow-up-right-from-square pj-icon"></i></button>
         </div>
         <div class="project-box pb4">
-            <img src="" alt="">
+        <div class="pf-image-4">
+                <div class="pf-img-overlay">
+                    <h3 class="pf-title-1">.comFORGE</h3>
+                </div>
+            </div>
              <p>Project 4</p>
             <h4>Project 4</h4>
-            <button>VIEW PROjECT</button>
+            <button>VIEW PROjECT <i class="fa-solid fa-arrow-up-right-from-square pj-icon"></i></button>
         </div>
+        <div class="project-box pb5">VIEW ALL</div>
     </div>
 </section>
 <section class="team-container">
@@ -164,7 +181,6 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/talking-emoji.png" alt="photo of a talkig smiley emoji">
     </div>
 </section>
-<section class="page-white-space"></section>
 <section class="blog-container">
     <h3 class="blog-section-title">Read Our Article and News</h3>
     <div class="article-box">
